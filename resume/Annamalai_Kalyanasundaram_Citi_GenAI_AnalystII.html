@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Annamalai Kalyanasundaram — Resume</title>
+<style>
+  @page { size: A4; margin: 10mm 11mm 10mm 11mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8.7pt;
+    line-height: 1.22;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  h1 {
+    font-size: 16.5pt;
+    font-weight: 700;
+    margin: 0 0 1pt 0;
+    letter-spacing: 0.2pt;
+  }
+  .headline {
+    font-size: 9pt;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 2pt 0;
+  }
+  .contact {
+    font-size: 8.2pt;
+    color: #333;
+    margin: 0 0 5pt 0;
+  }
+  h2 {
+    font-size: 9.2pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.55pt;
+    border-bottom: 1pt solid #222;
+    margin: 5.5pt 0 3pt 0;
+    padding-bottom: 1pt;
+  }
+  p { margin: 0 0 3pt 0; }
+  .summary { text-align: justify; }
+  .job-header, .proj-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8pt;
+    margin: 3pt 0 1pt 0;
+  }
+  .job-title { font-weight: 700; font-size: 9pt; }
+  .job-meta { font-size: 8pt; color: #333; white-space: nowrap; }
+  .stack {
+    font-size: 7.8pt;
+    font-style: italic;
+    color: #333;
+    margin: 0 0 1.5pt 0;
+  }
+  ul {
+    margin: 0 0 2pt 0;
+    padding-left: 11pt;
+  }
+  li { margin: 0 0 1.4pt 0; }
+  .skills p { margin: 0 0 1.8pt 0; }
+  .skills strong { font-weight: 700; }
+  .edu-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 8pt;
+    margin: 0 0 1.5pt 0;
+  }
+  .muted { color: #333; font-size: 8pt; }
+</style>
+</head>
+<body>
+
+  <h1>Annamalai Kalyanasundaram</h1>
+  <p class="headline">Full-stack GenAI Engineer · RAG &amp; Agentic AI · Python / FastAPI · AWS</p>
+  <p class="contact">Bengaluru, India · (+91) 7838971194 · annamalai.k97@hotmail.com · linkedin.com/in/annamalai-kalyanasundaram</p>
+
+  <h2>Professional Summary</h2>
+  <p class="summary">Full-stack GenAI engineer with ~2 years building and operating production cloud services, focused on agentic LLM systems for regulated workflows. Hands-on with LangGraph/LangChain/CrewAI orchestration, RAG pipelines (ingestion → embeddings → vector search → grounded generation), FastAPI microservices, Docker/Kubernetes packaging, and evaluation/observability (RAGAS, LangSmith). AWS Certified Solutions Architect – Associate. Targeting Analyst II roles shipping practical GenAI into risk and model-operations environments.</p>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <p><strong>GenAI &amp; LLM:</strong> LangGraph, LangChain, CrewAI, RAG / Advanced RAG, vector stores (FAISS, ChromaDB, Pinecone, Milvus), RAGAS, LangSmith, prompt engineering &amp; guardrails, Transformers / Hugging Face, PEFT (LoRA/QLoRA), MCP</p>
+    <p><strong>Backend &amp; APIs:</strong> Python, FastAPI, REST microservices, Node.js / Express.js</p>
+    <p><strong>ML / NLP:</strong> PyTorch, embeddings, NLP fundamentals, Transformer architectures</p>
+    <p><strong>Cloud &amp; DevOps:</strong> AWS (EC2, VPC, IAM, Lambda, ECS, S3, CloudWatch), Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins), Git</p>
+    <p><strong>Data &amp; UI:</strong> MySQL, SQL optimization, document ingestion for RAG; React.js</p>
+  </div>
+
+  <h2>Professional Experience</h2>
+  <div class="job-header">
+    <div class="job-title">Software Developer — Arche Global Pvt Ltd</div>
+    <div class="job-meta">Bengaluru · Jun 2024 – Jul 2026</div>
+  </div>
+  <ul>
+    <li>Delivered production backend and cloud automation for <strong>Pulse</strong>, a hybrid-cloud operations platform — improved operational efficiency by <strong>~30%</strong> via automated monitoring and streamlined releases.</li>
+    <li>Designed and maintained <strong>15+ REST APIs</strong> (Node.js/Express) for asset management, ticketing, and monitoring under high-frequency traffic; applied the same API design discipline to FastAPI GenAI services.</li>
+    <li>Built CI/CD pipelines (GitHub Actions / Jenkins) that reduced deployment friction; packaged and operated services with <strong>Docker</strong> on AWS (EC2, VPC, IAM, ECS, Lambda).</li>
+    <li>Optimized MySQL schemas/queries for high-frequency operational data; collaborated with DevOps in Agile sprints on reliability and release quality.</li>
+    <li>Shipped React dashboards for real-time infrastructure visibility — end-to-end ownership from API contract through UI and cloud deployment.</li>
+  </ul>
+
+  <h2>GenAI Projects (Production-style)</h2>
+  <div class="job-header">
+    <div class="job-title">Agentic RAG Advisor — Lead Capstone (Regulated-domain workflow)</div>
+    <div class="job-meta">Shipped · Oct 2026</div>
+  </div>
+  <p class="stack">LangGraph · LangChain · FastAPI · Docker · Kubernetes · ChromaDB/FAISS · RAGAS · LangSmith</p>
+  <ul>
+    <li>Built an end-to-end <strong>agentic RAG</strong> service: document ingestion, chunking, embeddings, vector retrieval, prompt assembly, guardrails, and grounded generation.</li>
+    <li>Orchestrated multi-step reasoning with <strong>LangGraph</strong> (state, memory, tool use, human-in-the-loop) over a retrieval pipeline; exposed capabilities via <strong>FastAPI</strong> microservices.</li>
+    <li>Instrumented workflows with <strong>LangSmith</strong>; maintained a <strong>RAGAS</strong> evaluation harness for retrieval/answer quality before release.</li>
+    <li>Packaged with <strong>Docker</strong> and deployed to <strong>Kubernetes</strong>; CI via GitHub Actions for build/test/image publish.</li>
+  </ul>
+
+  <div class="job-header">
+    <div class="job-title">Domain RAG Assistants &amp; Agentic Insight Workflows</div>
+    <div class="job-meta">Oct 2026</div>
+  </div>
+  <p class="stack">LangChain · CrewAI · Vector DBs · Open-source + API LLMs · FastAPI</p>
+  <ul>
+    <li>Delivered a domain-aware chatbot with model switching (Mistral vs API LLMs) and a RAG support assistant over internal knowledge bases.</li>
+    <li>Implemented an agentic market-insight flow with tool use and structured outputs — agent routing, memory, and tool-calling sequences.</li>
+  </ul>
+
+  <h2>Additional Delivery</h2>
+  <ul>
+    <li><strong>PULSE — Cloud Operations Platform:</strong> React, Node.js, Express, MySQL, AWS, Docker — central hybrid-environment ops tool with 15+ APIs and real-time monitoring.</li>
+    <li><strong>BIAL Plus (Android, Google Play):</strong> Kotlin, Jetpack Compose, Azure AD, Intune — Bangalore International Airport internal mobility app with SSO and MDM/MAM.</li>
+  </ul>
+
+  <h2>Education &amp; Certifications</h2>
+  <div class="edu-line">
+    <span><strong>B.Tech, Engineering</strong> — Sri Venkateswara College of Engineering, Chennai</span>
+    <span class="muted">2021</span>
+  </div>
+  <ul>
+    <li>Advanced Generative and Agentic AI — Naresh Technologies · Completed Oct 2026</li>
+    <li>AWS Certified Solutions Architect – Associate · Valid through March 2027</li>
+    <li>APTECH Certified Python Developer</li>
+  </ul>
+  <p class="muted">Languages: English (Fluent) · Hindi (Fluent) · Tamil (Native)</p>
+
+</body>
+</html>
