@@ -1,23 +1,22 @@
-# Citi resume — professional redesign notes
+# Honest resume rules (current vs October)
 
-Target: **Risk Modeling Solutions – Full-stack GenAI – Analyst II** (apply ~Oct 2026).
+## What is true *now* (Aug 2026)
+- Arche: Pulse, 15+ Node/Express APIs, CI/CD, MySQL, React, Agile/DevOps collaboration, ~30% efficiency
+- AWS SA Associate; Docker / Jenkins / GitHub Actions / AWS services listed as skills (from original CV)
+- Naresh GenAI specialization **in progress** — expected Oct 2026
+- Capstones **in progress** — designing / planned FastAPI+Docker packaging, not deployed
+- No Kubernetes experience claimed
+- FastAPI / Kubernetes = learning targets for capstone, not current skills
+- No GitHub link until projects are public
 
-## Layout (aligned to Harvard / ATS 2026 guidance)
-- Single column, no sidebars, icons, skill bars, or graphics
-- Centered name + contact; Georgia body + Helvetica labels
-- Standard headings: Summary, Technical Skills, Experience, Projects, Education, Certifications
-- Right-aligned dates; action-verb bullets; selectable text PDF
+## What to change *after* Oct 2026 (only when actually done)
+1. Headline → Full-Stack GenAI / FastAPI if earned
+2. Summary → past tense on shipped GenAI services
+3. Move GenAI skills out of “in progress†”
+4. Capstones → “Built / Deployed…” only with real demo
+5. Education → “Completed Oct 2026”
+6. Add GitHub + live demo URLs
+7. Add Kubernetes only if you actually deployed there
 
-## Content changes vs original CV
-- Removed course-syllabus dump and “currently pursuing” framing from page 1
-- Removed application-specific “seeking Citi…” objective language from earlier drafts
-- Deduplicated Pulse (kept crisp under Experience + Additional Projects)
-- GenAI bullets emphasize architecture, APIs, eval, containers — not tool name-dropping alone
-- Skills grouped and trimmed to interviewable items
-- Kept October-ready claims (K8s, completed specialization) — **only send after true**
-
-## Before applying
-- [ ] Replace `github.com/<your-github>` with real profile + demo links
-- [ ] Specialization completed; Agentic RAG FastAPI service deployed (Docker + Kubernetes)
-- [ ] RAGAS / LangSmith evidence in README
-- [ ] Optional: AWS Bedrock path for preferred Citi skills
+## Do not send the October version early
+A bank technical screen will end on false “deployed to Kubernetes” / “Completed” claims.

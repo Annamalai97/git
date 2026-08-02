@@ -66,6 +66,13 @@
     margin-bottom: 2.2pt;
   }
   .skill-line strong { font-weight: 700; }
+  .footnote {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    color: #444;
+    font-style: italic;
+    margin-top: 2pt;
+  }
 
   .entry { margin-bottom: 8pt; }
   .entry-head {
@@ -112,7 +119,7 @@
 
   <header>
     <h1>Annamalai Kalyanasundaram</h1>
-    <p class="headline">Full-Stack GenAI Engineer &nbsp;|&nbsp; RAG · Agentic AI · Python · FastAPI &nbsp;|&nbsp; AWS Solutions Architect</p>
+    <p class="headline">Software Developer &nbsp;|&nbsp; GenAI Specialization (In Progress) &nbsp;|&nbsp; AWS Solutions Architect</p>
     <p class="contact">
       Bengaluru, India &nbsp;·&nbsp; +91 78389 71194 &nbsp;·&nbsp; <a href="mailto:annamalai.k97@hotmail.com">annamalai.k97@hotmail.com</a><br/>
       <a href="https://linkedin.com/in/annamalai-kalyanasundaram">linkedin.com/in/annamalai-kalyanasundaram</a>
@@ -121,18 +128,19 @@
 
   <h2>Summary</h2>
   <p class="summary">
-    Software engineer with ~2 years of production experience and a focused specialization in generative and agentic AI.
-    Builds LLM applications with LangGraph, LangChain, and CrewAI — including RAG pipelines, FastAPI microservices,
-    Docker/Kubernetes deployment, and evaluation via RAGAS and LangSmith. Delivers AWS-backed services, REST APIs, and CI/CD
-    with measurable operational impact. AWS Certified Solutions Architect – Associate.
+    Software engineer with ~2 years delivering production cloud and API systems, currently completing a Generative and Agentic AI
+    specialization (expected October 2026). Building specialization capstones in LangGraph/LangChain RAG and agentic workflows,
+    with planned packaging as a containerized FastAPI service. Production background includes REST APIs, React, MySQL, AWS, Docker,
+    and CI/CD. AWS Certified Solutions Architect – Associate.
   </p>
 
   <h2>Technical Skills</h2>
-  <p class="skill-line"><strong>GenAI / LLM:</strong> LangGraph, LangChain, CrewAI, RAG (hybrid, corrective, Self-RAG), FAISS, ChromaDB, Pinecone, Milvus, RAGAS, LangSmith, Hugging Face, Transformers, PEFT (LoRA/QLoRA), prompt engineering, guardrails</p>
   <p class="skill-line"><strong>Languages:</strong> Python, JavaScript / Node.js, SQL, Bash, Kotlin</p>
-  <p class="skill-line"><strong>Backend &amp; APIs:</strong> FastAPI, Express.js, REST microservices, request validation, structured error handling</p>
-  <p class="skill-line"><strong>Cloud &amp; DevOps:</strong> AWS (EC2, VPC, IAM, Lambda, ECS, S3, RDS, CloudWatch), Docker, Kubernetes, GitHub Actions, Jenkins, Git</p>
-  <p class="skill-line"><strong>Data &amp; Frontend:</strong> MySQL, document ingestion for RAG, Neo4j; React.js; Jetpack Compose</p>
+  <p class="skill-line"><strong>Backend &amp; Frontend:</strong> Node.js, Express.js, RESTful APIs, React.js, MySQL</p>
+  <p class="skill-line"><strong>Cloud &amp; DevOps:</strong> AWS (EC2, VPC, S3, IAM, Lambda, ECS, RDS, CloudWatch), Docker, Jenkins, GitHub Actions, Git, Azure AD</p>
+  <p class="skill-line"><strong>Mobile:</strong> Kotlin, Jetpack Compose, Android SDK</p>
+  <p class="skill-line"><strong>GenAI (in progress†):</strong> LangChain, LangGraph, CrewAI, RAG, vector databases (FAISS, ChromaDB, Pinecone, Milvus), RAGAS, LangSmith, Hugging Face, PyTorch, Transformers, prompt engineering</p>
+  <p class="footnote">† Generative &amp; Agentic AI specialization and capstones — expected completion October 2026. FastAPI and Kubernetes are learning targets for the lead capstone, not production experience.</p>
 
   <h2>Experience</h2>
   <div class="entry">
@@ -142,37 +150,51 @@
     </div>
     <div class="entry-sub"><span class="entry-org">Arche Global Pvt Ltd — Bengaluru, India</span></div>
     <ul>
-      <li>Improved operational efficiency by ~30% on Pulse, a hybrid-cloud operations platform, by automating monitoring workflows and streamlining release processes.</li>
-      <li>Designed and maintained 15+ production REST APIs (Node.js, Express.js) supporting asset management, ticketing, and monitoring under high-frequency traffic.</li>
-      <li>Built CI/CD pipelines (GitHub Actions, Jenkins) that reduced deployment friction across staging and production; containerized services with Docker on AWS (EC2, VPC, IAM, ECS, Lambda).</li>
-      <li>Optimized MySQL schemas and queries for high-frequency operational data; delivered React.js dashboards for real-time infrastructure visibility.</li>
-      <li>Partnered with DevOps and infrastructure teams in Agile sprints; contributed to code reviews and reliable releases.</li>
+      <li>Enhanced Pulse, a cloud operations platform for hybrid cloud environments, driving a ~30% improvement in operational efficiency through automated monitoring and streamlined workflows.</li>
+      <li>Designed and maintained 15+ RESTful API endpoints (Node.js, Express.js) for asset management, ticketing, and monitoring under high-frequency read/write traffic.</li>
+      <li>Established CI/CD workflows that reduced deployment time by streamlining release cycles and minimizing manual intervention across staging and production.</li>
+      <li>Optimized MySQL database queries and schema design for high-frequency operations, improving data retrieval performance.</li>
+      <li>Built responsive web interfaces in React.js for asset management, ticketing, and real-time cloud monitoring dashboards.</li>
+      <li>Collaborated with cross-functional DevOps and infrastructure teams to deliver sprint commitments in an Agile environment.</li>
     </ul>
   </div>
 
-  <h2>Selected Projects</h2>
+  <h2>GenAI Specialization &amp; Capstones</h2>
   <div class="entry">
     <div class="entry-head">
-      <div class="entry-title">Agentic RAG Advisor</div>
-      <div class="entry-meta">Capstone · Oct 2026</div>
+      <div class="entry-title">Advanced Generative and Agentic AI</div>
+      <div class="entry-meta">In progress · Expected Oct 2026</div>
     </div>
-    <p class="stack">LangGraph · LangChain · FastAPI · Docker · Kubernetes · ChromaDB / FAISS · RAGAS · LangSmith</p>
+    <div class="entry-sub"><span class="entry-org">Naresh Technologies</span></div>
     <ul>
-      <li>Built an end-to-end agentic RAG service for a regulated-domain advisor covering ingestion, chunking, embeddings, vector retrieval, prompt assembly, guardrails, and grounded generation.</li>
-      <li>Orchestrated multi-step reasoning with LangGraph (state, memory, tool use, human-in-the-loop) and served capabilities through FastAPI microservices with validation and structured errors.</li>
-      <li>Instrumented workflows with LangSmith tracing and a RAGAS evaluation harness; packaged with Docker, deployed to Kubernetes, and automated CI with GitHub Actions.</li>
+      <li><strong>Foundations:</strong> Python for AI, neural networks, PyTorch, Transformer architecture, Hugging Face, multimodal LLMs, prompt engineering and guardrails.</li>
+      <li><strong>RAG systems:</strong> Chunking, embeddings, ChromaDB, Pinecone, FAISS, Milvus, conversational RAG, RAGAS evaluation, Corrective RAG, Self-RAG, hybrid search, GraphRAG.</li>
+      <li><strong>Agentic AI:</strong> LangChain, CrewAI, LangGraph (state graphs, persistence, human-in-the-loop), MCP, A2A, LangSmith observability.</li>
+      <li><strong>Optimization:</strong> PEFT fine-tuning (LoRA/QLoRA), quantization, vLLM (coursework).</li>
     </ul>
   </div>
 
   <div class="entry">
     <div class="entry-head">
-      <div class="entry-title">RAG Assistants &amp; Agentic Workflows</div>
-      <div class="entry-meta">Capstone · Oct 2026</div>
+      <div class="entry-title">Agentic RAG Advisor — Lead Capstone</div>
+      <div class="entry-meta">In progress · Target Oct 2026</div>
     </div>
-    <p class="stack">LangChain · CrewAI · Vector databases · Open-source &amp; API LLMs · FastAPI</p>
+    <p class="stack">Planned stack: LangGraph · LangChain · ChromaDB / FAISS · RAGAS · LangSmith · FastAPI · Docker</p>
     <ul>
-      <li>Delivered a domain-aware chatbot with model switching (Mistral and API LLMs) and a RAG support assistant over internal knowledge bases.</li>
-      <li>Implemented an agentic market-insight workflow with tool calling, routing, memory, and structured outputs.</li>
+      <li>Designing a multi-agent advisor for a regulated domain: LangGraph orchestration with memory over a RAG pipeline (ingestion, chunking, embeddings, vector search, prompt assembly), with retrieval tuning, guardrails, RAGAS evaluation, and LangSmith tracing.</li>
+      <li>Intended packaging as a containerized FastAPI service with REST endpoints, request/response validation, structured error handling, and basic observability.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div class="entry-title">Additional Capstones</div>
+      <div class="entry-meta">In progress · Target Oct 2026</div>
+    </div>
+    <ul>
+      <li>Domain-aware LLM chatbot with switching between open-source (Mistral) and API models.</li>
+      <li>RAG-powered customer support assistant over internal knowledge bases.</li>
+      <li>Agentic market-insight generation using web search tools.</li>
     </ul>
   </div>
 
@@ -186,8 +208,8 @@
     </div>
     <p class="stack">Kotlin · Jetpack Compose · Azure AD · Microsoft Intune · CI/CD</p>
     <ul>
-      <li>Shipped Bangalore International Airport’s official internal mobility platform for HCM, shift management, and HR services used in day-to-day airport operations.</li>
-      <li>Integrated Azure AD single sign-on and Microsoft Intune (MDM/MAM); diagnosed and resolved critical authentication blockers to maintain 24/7 availability.</li>
+      <li>Developed and shipped the official internal mobility platform for Bangalore International Airport employees, centralizing HCM, shift management, and HR services.</li>
+      <li>Built the app in Kotlin/Jetpack Compose; integrated Azure AD single sign-on and Microsoft Intune (MDM/MAM); resolved critical auth blockers to support 24/7 airport operations.</li>
     </ul>
   </div>
 
@@ -196,10 +218,10 @@
       <div class="entry-title">Pulse — Cloud Operations Platform</div>
       <div class="entry-meta">Arche Global</div>
     </div>
-    <p class="stack">React.js · Node.js · Express.js · MySQL · AWS · Docker</p>
+    <p class="stack">React.js · Node.js · Express.js · MySQL · AWS · RESTful APIs</p>
     <ul>
-      <li>Architected the central hybrid-environment operations tool for infrastructure visibility and incident response.</li>
-      <li>Implemented 15+ REST APIs and a MySQL-backed data layer with optimized queries; built real-time React monitoring dashboards for cloud assets and tickets.</li>
+      <li>Architected a cloud operations platform for hybrid environment management — infrastructure visibility and incident response.</li>
+      <li>Designed 15+ RESTful API endpoints and a MySQL-backed data layer with optimized queries; built real-time monitoring dashboards in React.js.</li>
     </ul>
   </div>
 
@@ -208,10 +230,9 @@
       <div class="entry-title">ArcheOne — Productivity Platform (Android)</div>
       <div class="entry-meta">Arche Global</div>
     </div>
-    <p class="stack">Kotlin · Android SDK · REST APIs · Push Notifications</p>
+    <p class="stack">Kotlin · Android SDK · RESTful APIs · Push Notifications</p>
     <ul>
-      <li>Delivered end-to-end product features including Business Card, SOS, Deskcart, TravelDesk, and Helpdesk.</li>
-      <li>Integrated real-time push notifications and optimized REST clients for reliable performance across a wide range of Android devices.</li>
+      <li>Delivered end-to-end features (Business Card, SOS, Deskcart, TravelDesk, Helpdesk) with real-time push notifications and optimized REST integrations across devices.</li>
     </ul>
   </div>
 
@@ -226,14 +247,9 @@
   <div class="edu-item">
     <div class="entry-head">
       <div><span class="entry-title">Advanced Generative and Agentic AI</span></div>
-      <div class="entry-meta">Completed Oct 2026</div>
+      <div class="entry-meta">In progress · Expected Oct 2026</div>
     </div>
     <div class="entry-sub"><span class="entry-org">Naresh Technologies</span></div>
-    <ul>
-      <li><strong>Foundations:</strong> Python for AI, neural networks, PyTorch, Transformer architecture, Hugging Face, multimodal LLMs, prompt engineering and guardrails.</li>
-      <li><strong>RAG &amp; agents:</strong> Chunking, embeddings, Pinecone/FAISS/ChromaDB/Milvus, GraphRAG, LangGraph, LangChain, CrewAI, MCP, LangSmith, RAGAS evaluation.</li>
-      <li><strong>Serving:</strong> PEFT fine-tuning (LoRA/QLoRA), quantization, vLLM.</li>
-    </ul>
   </div>
 
   <h2>Certifications</h2>
